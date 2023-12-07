@@ -19,12 +19,22 @@
     background-position: center;
 }
 
+header{
+    grid-area: he;
+}
+
+header img{
+    width: 100%;
+    max-width: 998px;
+}
+
 nav, article, aside{
     padding: 15px;
 }
 
 nav{
     border-bottom: 1px solid black;
+    grid-area: na;
 }
 
 nav ul{
@@ -60,10 +70,17 @@ nav ul li a{
     max-width: 1000px;
     border: 1px solid black;
     /*height: 100vh;*/
-    height: 100vh;
     background-color: rgb(29, 29, 29);
-    
+    color: #4dc953;
+    display: grid;
+    grid-template-areas: 
+    "he he he he"
+    "na na na na"
+    "ar ar ar as"
+    "fo fo fo fo"
+    ;
 }
+
 #main2{
     margin: auto;
     width: 100%;
@@ -73,7 +90,18 @@ nav ul li a{
     height: 100vh;
     background-color: #550000
 }
+
+article{
+    grid-area: ar;
+}
+
+aside{
+    grid-area: as;
+}
+
 footer{
     text-align: center;
     border-top: 1px solid black;
+    padding: 10px;
+    grid-area: fo;
 }
