@@ -29,7 +29,7 @@ header img{
 }
 
 nav, article, aside{
-    padding: 15px;
+    padding: 10px;
 }
 
 nav{
@@ -54,6 +54,8 @@ nav ul li a{
     color: red;
     background-color: rgb(41, 37, 37);
     padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: 1px #550000 solid;
 }
 
 .navlink1{
@@ -88,7 +90,15 @@ nav ul li a{
     border: 1px solid black;
     /*height: 100vh;*/
     height: 100vh;
-    background-color: #550000
+    background-color: #550000;
+    color: black;
+    display: grid;
+    grid-template-areas: 
+    "he he he he"
+    "na na na na"
+    "ar ar ar as"
+    "fo fo fo fo"
+    ;
 }
 
 article{
