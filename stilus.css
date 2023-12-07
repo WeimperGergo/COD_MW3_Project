@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
 
 #body1{
     background-image: url('kepek/regimw3hatter.jpg');
@@ -26,6 +31,7 @@ nav ul li a{
 .navlink2{
     color: darkred;
     background-color: gray;
+}
 
 .navlink1{
     color: #67BA5A;
