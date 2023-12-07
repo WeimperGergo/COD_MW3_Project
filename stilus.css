@@ -43,6 +43,8 @@ nav ul li a{
     color: #67BA5A;
     background-color: #092906;
     padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: 1px rgb(41, 146, 55) solid;
 }
 
 #main1{
