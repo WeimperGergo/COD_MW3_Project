@@ -26,7 +26,7 @@ nav ul li a{
 .navlink2{
     color: darkred;
     background-color: gray;
-
+}
 .navlink1{
     color: #67BA5A;
     background-color: #092906;
@@ -52,7 +52,6 @@ nav ul li a{
     height: 100vh;
     background-color: #550000
 }
-
 footer{
     text-align: center;
     border-top: 1px solid black;
