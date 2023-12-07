@@ -17,6 +17,12 @@
     background-size: cover;
     background-position: center;
 }
+nav, article, aside{
+    padding: 15px;
+}
+nav{
+    border-bottom: 1px solid black;
+}
 nav ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
