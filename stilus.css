@@ -11,18 +11,22 @@
     background-position: center;
     
 }
+
 #body2{
     background-image: url('kepek/fohatter.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 nav, article, aside{
     padding: 15px;
 }
+
 nav{
     border-bottom: 1px solid black;
 }
+
 nav ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -30,15 +34,18 @@ nav ul{
     list-style-type: none;
     
 }
+
 nav ul li a{
     text-decoration: none;
    
 }
+
 .navlink2{
     color: red;
     background-color: rgb(41, 37, 37);
     padding: 10px 20px 10px 20px;
 }
+
 .navlink1{
     color: #67BA5A;
     background-color: #092906;
