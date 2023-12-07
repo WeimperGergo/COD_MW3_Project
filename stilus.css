@@ -1,8 +1,10 @@
+
 #body1{
     background-image: url('kepek/regimw3hatter.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 #body2{
     background-image: url('kepek/fohatter.jpg');
@@ -24,8 +26,13 @@ nav ul li a{
 .navlink2{
     color: darkred;
     background-color: gray;
+
+.navlink1{
+    color: #67BA5A;
+    background-color: #092906;
     padding: 10px 20px 10px 20px;
 }
+
 #main1{
     margin: auto;
     width: 100%;
@@ -33,6 +40,8 @@ nav ul li a{
     border: 1px solid black;
     /*height: 100vh;*/
     height: 100vh;
+    background-color: rgb(29, 29, 29);
+    box-shadow: 0px 1px 1px rgb(30, 77, 24);
 }
 #main2{
     margin: auto;
@@ -43,6 +52,7 @@ nav ul li a{
     height: 100vh;
     background-color: #550000
 }
+
 footer{
     text-align: center;
     border-top: 1px solid black;
