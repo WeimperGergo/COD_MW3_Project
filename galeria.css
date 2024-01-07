@@ -7,6 +7,7 @@
 main {
     max-width: 1000px;
     width: 80%;
+    height: 100vh;
     margin: auto;
     padding: 10px;
     display: grid;
@@ -17,10 +18,15 @@ main {
     "a"
     "f";
     border: 1px solid black;
+    font-size: 22px;
 }
 
 header {
     padding: 5px;
+    color: rgb(157, 157, 157);
+    text-shadow: 0.5px 0.5px 2px rgb(93, 93, 93);
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 body{
@@ -28,6 +34,11 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+nav{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 nav ul{
@@ -39,6 +50,12 @@ nav ul{
 
 nav ul li a{
     text-decoration: none;  
+    font-size: 20px+3vw;
+    color: rgb(196, 196, 196);
+    border: 2px double rgb(57, 56, 56);
+    border-radius: 25px;
+    text-shadow: 0.5px 0.5px 2px rgb(93, 93, 93);
+    padding: 10px;
 }
 
 .navlink2{
@@ -65,6 +82,8 @@ footer {
     text-align: center;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 article {
