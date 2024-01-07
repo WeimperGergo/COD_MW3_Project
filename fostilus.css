@@ -3,56 +3,17 @@
     padding: 0;
     box-sizing: border-box; 
 }
-
-main{
-    margin: auto;
-    width: 100%;
-    max-width: 900px;
-    border: 1px solid black;
-    background-color: rgb(154, 10, 10);
-}
-header img{
-    width: 100%;
-}
-header{
-    margin-bottom: -5px;
-}
-nav ul li{
-    list-style-type: none;
-    font-family:Impact, 'Arial Narrow Bold', sans-serif;
-    margin: 10%;
-}
-nav ul li a{
-    text-decoration: none;
-    color: rgb(211, 211, 211);
-    text-shadow: 0.5px 0.5px 2px rgb(229, 2, 2);
-    border: 5px outset rgb(0, 0, 0);
-    padding: 5% 10% 5% 10%;
-    margin: 5%;
-    background-color: rgb(38, 38, 38);
-    border-radius: 5%;
-    
-}
-nav ul{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    display: grid;
-    text-align: center;
-}
-nav{
-    padding: 12px;
-    background-image: radial-gradient(rgb(25, 25, 25), rgb(52, 52, 52));
-}
-article{
-    color: rgb(255, 251, 251);
-    text-shadow: 0.5px 0.5px 2px red;
-    margin: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 body{
     background-image: linear-gradient(rgb(31, 30, 30), rgb(79, 73, 73));
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+header img {
+    max-width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
