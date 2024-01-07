@@ -9,6 +9,25 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+main{
+    margin: auto;
+    max-width: 1600px;
+    display: grid;
+    
+    grid-template-areas:
+    "he he he"
+    "as ar as"
+    "fo fo fo";
+}
+article{
+    grid-area: ar;
+}
+aside{
+    grid-area: as;
+}
+header{
+    grid-area: he;
+}
 header img {
     max-width: 900px;
     width: 100%;
@@ -19,15 +38,13 @@ header img {
     margin-right: auto;
 }
 
-
-
-
-
 footer{
     text-align: center;
     color: rgb(187, 187, 187);
     text-shadow: 0.5px 0.5px 2px rgb(0, 0, 0);
+    grid-area: fo;
 }
+
 #balasidekep{
     float: left;
     margin: auto;
@@ -41,17 +58,19 @@ footer{
     /*background-image: url('kepek/CODMW3_2011_Box1.jpg');
     background-repeat: no-repeat;
     background-attachment: inherit;
-    */
-    padding: 100px;
-    background-color: gray;
+    */   
     float: left;
 }
-#jobbaside{
-    padding: 100px;
-    background-color: gray;
+#jobbaside{  
     float: right;
 }
 aside img{
-    max-width: 400px;
-    width: 100%;
+    width: 300px;
+    max-width: 300px;
+    height: 300px;
+}
+article img{
+    width: 300px;
+    max-width: 300px;
+    height: 300px;
 }
