@@ -21,6 +21,7 @@
 
 header{
     grid-area: he;
+    max-height: 300px;
 }
 
 header img{
@@ -35,6 +36,7 @@ nav, article, aside{
 nav{
     border-bottom: 1px solid black;
     grid-area: na;
+    max-height: 90px;
 }
 
 nav ul{
@@ -71,7 +73,7 @@ nav ul li a{
     width: 100%;
     max-width: 1000px;
     border: 1px solid black;
-    /*height: 100vh;*/
+    height: 100vh;
     background-color: rgb(29, 29, 29);
     color: #4dc953;
     display: grid;
