@@ -23,6 +23,7 @@ main {
 
 header {
     padding: 5px;
+    padding-top: 15px;
     color: rgb(157, 157, 157);
     text-shadow: 0.5px 0.5px 2px rgb(93, 93, 93);
     margin-top: auto;
@@ -56,6 +57,13 @@ nav ul li a{
     border-radius: 25px;
     text-shadow: 0.5px 0.5px 2px rgb(93, 93, 93);
     padding: 10px;
+    opacity: 60%;
+    transition: 0.25s;
+}
+
+nav ul li a:hover{
+    opacity: 100%;
+    transition: 0.1s;
 }
 
 .navlink2{
@@ -112,3 +120,5 @@ article {
     padding: 2px;
     width: 100%;
 }
+
+

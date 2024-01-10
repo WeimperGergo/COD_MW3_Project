@@ -3,46 +3,58 @@
     padding: 0;
     box-sizing: border-box; 
 }
+
 body{
-    background-image: linear-gradient(rgb(31, 30, 30), rgb(79, 73, 73));
+    background-image: linear-gradient(rgb(52, 50, 50), rgb(39, 37, 37));
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 main{
     margin: auto;
     max-width: 1600px;
     display: grid;
     height: 100vh;
+    place-items: center; 
     grid-template-areas:
     "he he he"
     "as1 ar as2"
     "fo fo fo";
     text-align: center;
 }
+
 article{
     grid-area: ar;
 }
+
 #aside1{
     grid-area: as1;
 }
+
 #aside2{
     grid-area: as2;
 }
+
 header{
     grid-area: he;
-    height: 300px;
+    height: 250px;
     width: 1000px;
     margin: auto;
 }
+
 header img {
     max-width: 900px;
     width: 100%;
-    max-height: 400px;
+    max-height: 350px;
     height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: black double 5px;
+    border-radius: 15px;
+    padding: 30px 80px 30px 80px;
+    background-image: linear-gradient(rgb(98, 96, 96), rgb(63, 61, 61));
 }
 
 footer{
@@ -56,6 +68,7 @@ footer{
     float: left;
     margin: auto;
 }
+
 #jobbasidekep{
     float: right;
     margin: auto;
@@ -68,16 +81,164 @@ footer{
     */   
     float: left;
 }
+
 #jobbaside{  
     float: right;
 }
+
 aside img{
-    width: 400px;
-    max-width: 400px;
-    height: 400px;
+    width: 350px;
+    max-width: 350px;
+    height: 350px;
+    transition: 0.5s;
+    opacity: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 article img{
+    width: 350px;
+    max-width: 350px;
+    height: 350px;
+    transition: 0.5s;
+    opacity: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article img:hover{
     width: 400px;
     max-width: 400px;
     height: 400px;
+    transition: 0.5s;
+    opacity: 100%;
 }
+
+aside img:hover{
+    width: 400px;
+    max-width: 400px;
+    height: 400px;
+    transition: 0.5s;
+    opacity: 100%;
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+    main{
+        max-width: 100%;
+        display: grid;
+        height: 100vh;
+        place-items: center; 
+        grid-template-areas:
+        "he he"
+        "as1 as2"
+        "ar ar"
+        "fo fo";
+    }
+    aside img{
+        margin-bottom: 0px;
+    }
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+    main{
+        max-width: 1000px;
+        display: grid;
+        place-items: center; 
+        grid-template-areas:
+        "he"
+        "as1"
+        "as2"
+        "ar"
+        "fo"
+    }
+    aside img{
+        margin-bottom: 0px;
+    }
+    aside img{
+        width: 400px;
+        max-width: 400px;
+        height: 400px;
+        
+    }
+    
+    article img{
+        width: 400px;
+        max-width: 400px;
+        height: 400px;
+        
+    }
+
+    article img:hover{
+        width: 450px;
+        max-width: 450px;
+        height: 450px;
+    }
+    
+    aside img:hover{
+        width: 450px;
+        max-width: 450px;
+        height: 450px;    
+    }
+
+    header{
+        height: 250px;
+        width: 100%;
+    }
+    
+    header img{
+        max-width: 90%;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 650px) {
+    main{
+        max-width: 96%;
+        display: grid;
+        place-items: center; 
+        grid-template-areas:
+        "he"
+        "as1"
+        "as2"
+        "ar"
+        "fo";
+        
+
+    }
+    aside img{
+        margin-bottom: 0px;
+    }
+    aside img{
+        width: 250px;
+        max-width: 300px;
+        height: 250px;
+    }
+    
+    article img{
+        width: 250px;
+        max-width: 300px;
+        height: 250px;
+    }
+
+    article img:hover{
+        width: 300px;
+        max-width: 300px;
+        height: 300px;
+    }
+    
+    aside img:hover{
+        width: 300px;
+        max-width: 300px;
+        height: 300px;   
+    }
+
+    header{
+        height: 175px;
+        width: 100%;
+    }
+
+  }
