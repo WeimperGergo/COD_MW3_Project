@@ -94,6 +94,7 @@ aside img{
     opacity: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 30px;
 }
 
 article img{
@@ -104,6 +105,7 @@ article img{
     opacity: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 30px;
 }
 
 article img:hover{

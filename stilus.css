@@ -59,7 +59,7 @@ nav ul li a:hover{
 }
 
 .navlink2{
-    color: red;
+    color: rgb(255, 255, 255);
     background-color: rgb(41, 37, 37);
     padding: 30px 50px 30px 50px;
     border-radius: 25px;
@@ -101,7 +101,7 @@ nav ul li a:hover{
     /*height: 100vh;*/
     height: 100vh;
     background-color: #550000;
-    color: black;
+    color: rgb(255, 255, 255);
     display: grid;
     grid-template-areas: 
     "he he he he"

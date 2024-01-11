@@ -107,8 +107,8 @@ article {
 #s2 {
     border: 1px solid;
     padding: 2px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;*/
     gap: 5px;
 }
 
@@ -121,4 +121,7 @@ article {
     width: 100%;
 }
 
-
+article span{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
